@@ -428,170 +428,518 @@ app.get("/", (req, res) => {
               },
             ],
           },
-          sectionFour: {
-            title: "title section four",
-            color: "#FF9800",
+        },
+        order: 3,
+      },
+      {
+        type: "thirdHero",
+        data: {
+          sectionOne: {
+            title: "Title section one",
+            color: "#FF5733",
             items: [
               {
-                title: "subtitle section four item four",
+                title: "title section one item one",
+                titleColor: "#000000",
+                image: "https://placehold.co/670x380",
+                link: "https://news.com/market-update",
+                subtitle: "Subtitle section one item one",
+                subtitleColor: "#555555",
+                duration: "5 min",
+                videoLink: "https://news.com/video/market-update",
+                category: {
+                  id: "1",
+                  name: "SBT Sports",
+                },
+              },
+              {
+                title: "title section one item two",
+                titleColor: "#1E90FF",
+                image: "https://placehold.co/670x380",
+                link: "https://news.com/tech",
+                subtitle: "Subtitle section one item one",
+                subtitleColor: "#666666",
+                category: {
+                  id: "2",
+                  name: "Paris 2024",
+                },
+              },
+              {
+                title: "title section one item three",
+                titleColor: "#1E90FF",
+                image: "https://placehold.co/670x380",
+                link: "https://news.com/tech",
+                subtitle: "Subtitle section one item one",
+                subtitleColor: "#666666",
+                category: {
+                  id: "3",
+                  name: "Ginástica",
+                },
+              },
+              {
+                title: "title section one item three",
+                titleColor: "#1E90FF",
+                image: "https://placehold.co/670x380",
+                link: "https://news.com/tech",
+                subtitle: "Subtitle section one item one",
+                subtitleColor: "#666666",
+                category: {
+                  id: "4",
+                  name: "Natação",
+                },
+              },
+              {
+                title: "title section one item three",
+                titleColor: "#1E90FF",
+                image: "https://placehold.co/670x380",
+                link: "https://news.com/tech",
+                subtitle: "Subtitle section one item one",
+                subtitleColor: "#666666",
+                category: {
+                  id: "5",
+                  name: "Futebol",
+                },
+              },
+              {
+                title: "title section one item three",
+                titleColor: "#1E90FF",
+                image: "https://placehold.co/670x380",
+                link: "https://news.com/tech",
+                subtitle: "Subtitle section one item one",
+                subtitleColor: "#666666",
+                category: {
+                  id: "6",
+                  name: "Vôlei",
+                },
+              },
+              {
+                title: "title section one item three",
+                titleColor: "#1E90FF",
+                image: "https://placehold.co/670x380",
+                link: "https://news.com/tech",
+                subtitle: "Subtitle section one item one",
+                subtitleColor: "#666666",
+                category: {
+                  id: "7",
+                  name: "Tênis",
+                },
+              },
+            ],
+          },
+          sectionTwo: {
+            title: "Title section two",
+            color: "#4CAF50",
+            items: [
+              {
+                title: "subtitle section two item one",
                 titleColor: "#FFFFFF",
-                image: "wellness.jpg",
-                link: "https://news.com/wellness",
-                subtitle: "Stay fit in 2024",
-                subtitleColor: "#333333",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/football",
+                subtitle: "Team A vs Team B",
+                subtitleColor: "#AAAAAA",
+                category: {
+                  id: "1",
+                  name: "SBT Sports",
+                },
+              },
+              {
+                title: "subtitle section two item two",
+                titleColor: "#FFFFFF",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/football",
+                subtitle: "Team A vs Team B",
+                subtitleColor: "#AAAAAA",
+                category: {
+                  id: "2",
+                  name: "Paris 2024",
+                },
+              },
+              {
+                title: "subtitle section two item two",
+                titleColor: "#FFFFFF",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/football",
+                subtitle: "Team A vs Team B",
+                subtitleColor: "#AAAAAA",
+                category: {
+                  id: "3",
+                  name: "Ginástica",
+                },
+              },
+              {
+                title: "subtitle section two item two",
+                titleColor: "#FFFFFF",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/football",
+                subtitle: "Team A vs Team B",
+                subtitleColor: "#AAAAAA",
+                category: {
+                  id: "4",
+                  name: "Natação",
+                },
+              },
+              {
+                title: "subtitle section two item two",
+                titleColor: "#FFFFFF",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/football",
+                subtitle: "Team A vs Team B",
+                subtitleColor: "#AAAAAA",
+                category: {
+                  id: "5",
+                  name: "Futebol",
+                },
+              },
+              {
+                title: "subtitle section two item two",
+                titleColor: "#FFFFFF",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/football",
+                subtitle: "Team A vs Team B",
+                subtitleColor: "#AAAAAA",
+                category: {
+                  id: "6",
+                  name: "Vôlei",
+                },
+              },
+              {
+                title: "subtitle section two item two",
+                titleColor: "#FFFFFF",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/football",
+                subtitle: "Team A vs Team B",
+                subtitleColor: "#AAAAAA",
+                category: {
+                  id: "7",
+                  name: "Tênis",
+                },
+              },
+            ],
+          },
+          sectionThree: {
+            title: "title section three",
+            color: "#9C27B0",
+            items: [
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "1",
+                  name: "SBT Sports",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards2",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "1",
+                  name: "SBT Sports",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards3",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "2",
+                  name: "Paris 2024",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards4",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "2",
+                  name: "Paris 2024",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards5",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "3",
+                  name: "Ginástica",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards6",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "3",
+                  name: "Ginástica",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards7",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "4",
+                  name: "Natação",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards8",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "4",
+                  name: "Natação",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards9",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "5",
+                  name: "Futebol",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards10",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "5",
+                  name: "Futebol",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards11",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "6",
+                  name: "Vôlei",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards12",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "6",
+                  name: "Vôlei",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards12",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "7",
+                  name: "Tênis",
+                },
+              },
+              {
+                title: "",
+                titleColor: "#FFD700",
+                image: "https://placehold.co/320x180",
+                link: "https://news.com/awards12",
+                subtitle: "subtitle section three item three",
+                subtitleColor: "#CCCCCC",
+                category: {
+                  id: "7",
+                  name: "Tênis",
+                },
               },
             ],
           },
         },
-        order: 3,
-      },
-      {
-        type: "navTab",
-        data: {
-          categories: [
-            {
-              title: "SBT News",
-              color: "#FF9800",
-              items: [
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-              ],
-            },
-            {
-              title: "Últimas notícias",
-              color: "#FF9800",
-              items: [
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-              ],
-            },
-            {
-              title: "Política",
-              color: "#FF9800",
-              items: [
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-                {
-                  description:
-                    "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-                  image: "emenda.jpg",
-                  link: "https://news.com/home",
-                },
-              ],
-            },
-          ],
-        },
-        order: 3,
-      },
-      {
-        type: "media",
         order: 4,
-        data: {
-          reels: {
-            title: "Reels",
-            color: "#FF9800",
-            items: [
-              {
-                username: "SBT",
-                timestamp: "2017-08-31T18:10:00+0000",
-                media: "https://news.com/image.png",
-                icon: "https://sbt.com/sbt.png",
-                link: "https://news.com/stories",
-              },
-              {
-                username: "SBT",
-                timestamp: "2017-08-31T18:10:00+0000",
-                media: "https://news.com/image.png",
-                icon: "https://sbt.com/sbt.png",
-                link: "https://news.com/stories",
-              },
-              {
-                username: "SBT",
-                timestamp: "2017-08-31T18:10:00+0000",
-                media: "https://news.com/image.png",
-                icon: "https://sbt.com/sbt.png",
-                link: "https://news.com/stories",
-              },
-            ],
-          },
-          stories: {
-            title: "Reels",
-            color: "#FF9800",
-            items: [
-              {
-                username: "SBT",
-                timestamp: "2017-08-31T18:10:00+0000",
-                media: "https://news.com/image.png",
-                icon: "https://sbt.com/sbt.png",
-                link: "https://news.com/stories",
-              },
-              {
-                username: "SBT",
-                timestamp: "2017-08-31T18:10:00+0000",
-                media: "https://news.com/image.png",
-                icon: "https://sbt.com/sbt.png",
-                link: "https://news.com/stories",
-              },
-              {
-                username: "SBT",
-                timestamp: "2017-08-31T18:10:00+0000",
-                media: "https://news.com/image.png",
-                icon: "https://sbt.com/sbt.png",
-                link: "https://news.com/stories",
-              },
-            ],
-          },
-        },
       },
-      {
-        typeof: "settings",
-        data: {
-          theme: "dark",
-          notificationsEnabled: false,
-        },
-      },
+      // {
+      //   type: "navTab",
+      //   data: {
+      //     categories: [
+      //       {
+      //         title: "SBT News",
+      //         color: "#FF9800",
+      //         items: [
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //         ],
+      //       },
+      //       {
+      //         title: "Últimas notícias",
+      //         color: "#FF9800",
+      //         items: [
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //         ],
+      //       },
+      //       {
+      //         title: "Política",
+      //         color: "#FF9800",
+      //         items: [
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //           {
+      //             description:
+      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
+      //             image: "emenda.jpg",
+      //             link: "https://news.com/home",
+      //           },
+      //         ],
+      //       },
+      //     ],
+      //   },
+      //   order: 3,
+      // },
+      // {
+      //   type: "media",
+      //   order: 4,
+      //   data: {
+      //     reels: {
+      //       title: "Reels",
+      //       color: "#FF9800",
+      //       items: [
+      //         {
+      //           username: "SBT",
+      //           timestamp: "2017-08-31T18:10:00+0000",
+      //           media: "https://news.com/image.png",
+      //           icon: "https://sbt.com/sbt.png",
+      //           link: "https://news.com/stories",
+      //         },
+      //         {
+      //           username: "SBT",
+      //           timestamp: "2017-08-31T18:10:00+0000",
+      //           media: "https://news.com/image.png",
+      //           icon: "https://sbt.com/sbt.png",
+      //           link: "https://news.com/stories",
+      //         },
+      //         {
+      //           username: "SBT",
+      //           timestamp: "2017-08-31T18:10:00+0000",
+      //           media: "https://news.com/image.png",
+      //           icon: "https://sbt.com/sbt.png",
+      //           link: "https://news.com/stories",
+      //         },
+      //       ],
+      //     },
+      //     stories: {
+      //       title: "Reels",
+      //       color: "#FF9800",
+      //       items: [
+      //         {
+      //           username: "SBT",
+      //           timestamp: "2017-08-31T18:10:00+0000",
+      //           media: "https://news.com/image.png",
+      //           icon: "https://sbt.com/sbt.png",
+      //           link: "https://news.com/stories",
+      //         },
+      //         {
+      //           username: "SBT",
+      //           timestamp: "2017-08-31T18:10:00+0000",
+      //           media: "https://news.com/image.png",
+      //           icon: "https://sbt.com/sbt.png",
+      //           link: "https://news.com/stories",
+      //         },
+      //         {
+      //           username: "SBT",
+      //           timestamp: "2017-08-31T18:10:00+0000",
+      //           media: "https://news.com/image.png",
+      //           icon: "https://sbt.com/sbt.png",
+      //           link: "https://news.com/stories",
+      //         },
+      //       ],
+      //     },
+      //   },
+      // },
+      // {
+      //   typeof: "settings",
+      //   data: {
+      //     theme: "dark",
+      //     notificationsEnabled: false,
+      //   },
+      // },
     ],
   };
 
