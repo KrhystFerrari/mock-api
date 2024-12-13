@@ -1113,6 +1113,11 @@ app.get("/", (req, res) => {
         },
         order: 5,
       },
+      {
+        type: "footer",
+        order: 7,
+        data: {},
+      },
       // {
       //   type: "navTab",
       //   data: {
