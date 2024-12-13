@@ -79,7 +79,7 @@ app.get("/", (req, res) => {
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards",
-                subtitle: "Winners Announced",
+                subtitle: "",
                 subtitleColor: "#CCCCCC",
               },
               {
@@ -87,7 +87,7 @@ app.get("/", (req, res) => {
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards2",
-                subtitle: "Winners Announced",
+                subtitle: "",
                 subtitleColor: "#CCCCCC",
               },
             ],
