@@ -1114,6 +1114,11 @@ app.get("/", (req, res) => {
         order: 5,
       },
       {
+        type: "colunaEditoria",
+        order: 7,
+        data: {},
+      },
+      {
         type: "footer",
         order: 7,
         data: {},
