@@ -283,11 +283,11 @@ app.get("/", (req, res) => {
             color: "#9C27B0",
             items: [
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "1",
@@ -295,11 +295,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards2",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "1",
@@ -307,11 +307,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards3",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "2",
@@ -319,11 +319,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards4",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "2",
@@ -331,11 +331,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards5",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "3",
@@ -343,11 +343,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards6",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "3",
@@ -355,11 +355,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards7",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "4",
@@ -367,11 +367,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards8",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "4",
@@ -379,11 +379,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards9",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "5",
@@ -391,11 +391,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards10",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "5",
@@ -403,11 +403,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards11",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "6",
@@ -415,11 +415,11 @@ app.get("/", (req, res) => {
                 },
               },
               {
-                title: "subtitle section three item three",
+                title: "",
                 titleColor: "#FFD700",
                 image: "https://placehold.co/320x180",
                 link: "https://news.com/awards12",
-                subtitle: "",
+                subtitle: "subtitle section three item three",
                 subtitleColor: "#CCCCCC",
                 category: {
                   id: "6",
