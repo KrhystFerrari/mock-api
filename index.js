@@ -1120,7 +1120,7 @@ app.get("/", (req, res) => {
       },
       {
         type: "footer",
-        order: 7,
+        order: 8,
         data: {},
       },
       // {
