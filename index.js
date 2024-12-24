@@ -118,7 +118,7 @@ app.get("/", (req, res) => {
         order: 2,
       },
       {
-        type: "secondHero",
+        type: "second-hero",
         data: {
           sectionOne: {
             title: "Title section one",
