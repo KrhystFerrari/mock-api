@@ -118,6 +118,11 @@ app.get("/", (req, res) => {
         order: 2,
       },
       {
+        type: "newsEmphasis",
+        order: 3,
+        data: {},
+      },
+      {
         type: "second-hero",
         data: {
           sectionOne: {
@@ -429,7 +434,7 @@ app.get("/", (req, res) => {
             ],
           },
         },
-        order: 3,
+        order: 5,
       },
       {
         type: "thirdHero",
@@ -791,7 +796,7 @@ app.get("/", (req, res) => {
             ],
           },
         },
-        order: 4,
+        order: 6,
       },
       {
         type: "fourthHero",
@@ -1111,165 +1116,23 @@ app.get("/", (req, res) => {
             ],
           },
         },
-        order: 5,
+        order: 7,
       },
       {
         type: "colunaEditoria",
-        order: 7,
+        order: 8,
+        data: {},
+      },
+      {
+        type: "reels",
+        order: 9,
         data: {},
       },
       {
         type: "footer",
-        order: 8,
+        order: 10,
         data: {},
       },
-      // {
-      //   type: "navTab",
-      //   data: {
-      //     categories: [
-      //       {
-      //         title: "SBT News",
-      //         color: "#FF9800",
-      //         items: [
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //         ],
-      //       },
-      //       {
-      //         title: "Últimas notícias",
-      //         color: "#FF9800",
-      //         items: [
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //         ],
-      //       },
-      //       {
-      //         title: "Política",
-      //         color: "#FF9800",
-      //         items: [
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //           {
-      //             description:
-      //               "Líder da oposição defende 'emenda Pix' e diz que governo tenta 'enquadrar'...",
-      //             image: "emenda.jpg",
-      //             link: "https://news.com/home",
-      //           },
-      //         ],
-      //       },
-      //     ],
-      //   },
-      //   order: 3,
-      // },
-      // {
-      //   type: "media",
-      //   order: 4,
-      //   data: {
-      //     reels: {
-      //       title: "Reels",
-      //       color: "#FF9800",
-      //       items: [
-      //         {
-      //           username: "SBT",
-      //           timestamp: "2017-08-31T18:10:00+0000",
-      //           media: "https://news.com/image.png",
-      //           icon: "https://sbt.com/sbt.png",
-      //           link: "https://news.com/stories",
-      //         },
-      //         {
-      //           username: "SBT",
-      //           timestamp: "2017-08-31T18:10:00+0000",
-      //           media: "https://news.com/image.png",
-      //           icon: "https://sbt.com/sbt.png",
-      //           link: "https://news.com/stories",
-      //         },
-      //         {
-      //           username: "SBT",
-      //           timestamp: "2017-08-31T18:10:00+0000",
-      //           media: "https://news.com/image.png",
-      //           icon: "https://sbt.com/sbt.png",
-      //           link: "https://news.com/stories",
-      //         },
-      //       ],
-      //     },
-      //     stories: {
-      //       title: "Reels",
-      //       color: "#FF9800",
-      //       items: [
-      //         {
-      //           username: "SBT",
-      //           timestamp: "2017-08-31T18:10:00+0000",
-      //           media: "https://news.com/image.png",
-      //           icon: "https://sbt.com/sbt.png",
-      //           link: "https://news.com/stories",
-      //         },
-      //         {
-      //           username: "SBT",
-      //           timestamp: "2017-08-31T18:10:00+0000",
-      //           media: "https://news.com/image.png",
-      //           icon: "https://sbt.com/sbt.png",
-      //           link: "https://news.com/stories",
-      //         },
-      //         {
-      //           username: "SBT",
-      //           timestamp: "2017-08-31T18:10:00+0000",
-      //           media: "https://news.com/image.png",
-      //           icon: "https://sbt.com/sbt.png",
-      //           link: "https://news.com/stories",
-      //         },
-      //       ],
-      //     },
-      //   },
-      // },
-      // {
-      //   typeof: "settings",
-      //   data: {
-      //     theme: "dark",
-      //     notificationsEnabled: false,
-      //   },
-      // },
     ],
   };
 
