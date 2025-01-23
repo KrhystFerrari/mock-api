@@ -90,7 +90,7 @@ app.get("/", (req, res) => {
           },
           sectionThree: {
             title: "Pop",
-            color: "#000000",
+            color: "#d250be",
             items: [
               {
                 title:
@@ -132,7 +132,7 @@ app.get("/", (req, res) => {
           },
           sectionFour: {
             title: "Programas de TV",
-            color: "#d250be",
+            color: "#282828",
             items: [
               {
                 title:
