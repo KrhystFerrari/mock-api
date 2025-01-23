@@ -126,7 +126,7 @@ app.get("/", (req, res) => {
           },
           sectionFour: {
             title: "Programas de TV",
-            color: "#000000",
+            color: "#d250be",
             items: [
               {
                 title:
