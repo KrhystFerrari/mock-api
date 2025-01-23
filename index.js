@@ -53,12 +53,18 @@ app.get("/", (req, res) => {
                 subtitleColor: "",
               },
               {
-                title: "title section one item three",
-                titleColor: "#1E90FF",
-                image: "https://placehold.co/670x380",
-                link: "https://news.com/tech",
-                subtitle: "Subtitle section one item one",
-                subtitleColor: "#666666",
+                title:
+                  "Everton demite Dyche a três horas de jogo pela Copa da Inglaterra",
+                titleColor: "",
+                image:
+                  "https://sbt-sports-assets-prod.s3.sa-east-1.amazonaws.com/thumbnail_apos_ser_comprado_everton_demite_tecnico_antes_de_partida_pela_copa_da_inglaterra_a16b21ea9b.jpg",
+                link: "https://sports.sbt.com.br/noticia/esportes/everton-demite-dyche-a-tres-horas-de-jogo-pela-copa-da-inglaterra",
+                subtitle:
+                  "Clube vive crise técnica e financeira; Leighton Baines assume como técnico interino",
+                subtitle2: "",
+                subtitleColor: "",
+                duration: "",
+                videoLink: "",
               },
             ],
           },
