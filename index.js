@@ -980,7 +980,7 @@ app.get("/", (req, res) => {
         order: 6,
       },
       {
-        type: "secon-hero-pop",
+        type: "second-hero-pop",
         data: {
           sectionOne: {
             title: "Title section one",
