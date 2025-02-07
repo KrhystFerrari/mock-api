@@ -1492,14 +1492,14 @@ app.get("/", (req, res) => {
         order: 7,
       },
       {
-        type: "expandableCard",
+        type: "programCalendar",
         order: 8,
-        data: []
+        data: {},
       },
       {
-        type: "programCalendar",
+        type: "expandableCard",
         order: 9,
-        data: [],
+        data: {},
       },
       {
         type: "colunaEditoria",
